@@ -5,8 +5,8 @@ from openke.module.loss import MarginLoss
 from openke.module.strategy import NegativeSampling
 from openke.data import TrainDataLoader, TestDataLoader
 
-#WORK_PATH = "./dataset/"
-WORK_PATH = "./benchmarks/FB15K237/"
+WORK_PATH = "./"
+#WORK_PATH = "./benchmarks/FB15K237/"
 # dataloader for training
 train_dataloader = TrainDataLoader(
 	in_path = WORK_PATH, 
